@@ -132,8 +132,7 @@ Initialize the plugin with the selector of the parent element.
 </script>
 ```
 
- ##Learn / Adopt / Fork##
- ###Initialize the plugin###
- The entirety of the plugin is included in this repository, including the demo section.  You can easily view all of the code in order to learn more about it.  I try to use clear commenting to explain the code.
+##Learn / Adopt / Fork##
+The entirety of the plugin is included in this repository, including the demo section.  You can easily view all of the code in order to learn more about it.  I try to use clear commenting to explain the code.
 
- Also, feel free to adopt and adapt to make it your own.  If you like, fork it and send over a pull request.  Add or solve existing issues.  It is open-source, after all.
+Also, feel free to adopt and adapt to make it your own.  If you like, fork it and send over a pull request.  Add or solve existing issues.  It is open-source, after all.
