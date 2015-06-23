@@ -2,7 +2,7 @@
 
 ##Usage / Installation##
 
-Usage of this accordion plugin entails the usual process:
+Usage of this carousel plugin entails the usual process:
 
 1. create the HTML markup
 2. add the JavaScript / jQuery refs
@@ -131,6 +131,19 @@ Initialize the plugin with the selector of the parent element.
 })( jQuery );
 </script>
 ```
+
+###Style the plugin with CSS###
+The demo pages have some basic CSS to add some structure to the page, which can be seen here: http://demo.dockstreetmedia.com/carousel/css/main.css.  Some of the demos also have some styling for the carousels, which can be seen here: http://demo.dockstreetmedia.com/carousel/css/carousel.css.
+
+You can modify or add your own CSS to match your own preferences.
+
+##Demos##
+
+The demos index can be viewed here:
+
+* http://demo.dockstreetmedia.com/carousel/index.html.  
+
+View the source to see how each carousel was initialized and styled.
 
 ##Learn / Adopt / Fork##
 The entirety of the plugin is included in this repository, including the demo section.  You can easily view all of the code in order to learn more about it.  I try to use clear commenting to explain the code.
