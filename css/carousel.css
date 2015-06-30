@@ -3,3 +3,7 @@
     overflow:hidden;
     position:relative;
 }
+
+.slide {
+    height:240px;
+}
