@@ -1,5 +1,5 @@
 /**
- * home JS - separated because homepages usually use a lot of stuff the rest of the site doesn't need
+ * jQuery plugin for an infinite carousel
  */
 /* define $ as jQuery just in case */
 ( function( $ )
