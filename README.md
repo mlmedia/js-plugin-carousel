@@ -11,87 +11,35 @@ Usage of this carousel plugin entails the usual process:
 
 ###HTML###
 
-The HTML markup must have a containing parent element, which can use any ID or class for initialization. The parent element must contain a single element with the "slide_window" class and optionally may contain the two elements with a "control" class and one of two compound "prev" and "next" classes.  Any element can be used in the "control" elements, including "+" / "-" characters, special HTML characters such as `&#9660;` arrows, image graphics, or font icons, such as with <a href="http://fortawesome.github.io/Font-Awesome/icons/" title="Font Awesome icons" target="_blank">Font Awesome icons</a>.
+The HTML markup must have a containing parent element, which can use any ID or class for initialization. The parent element must contain a single element with the "slide_window" class and optionally may contain the two elements with a "control" class and one of two compound "prev" and "next" classes.  Any element can be used in the "control" elements, including "&lt;" / "&gt;" characters, special HTML characters such as `&#9658;` arrows, image graphics, or font icons, such as with <a href="http://fortawesome.github.io/Font-Awesome/icons/" title="Font Awesome icons" target="_blank">Font Awesome icons</a>.
 
 The "slide_window" element can contain as many elements as desired with the "slide" class.  These elements will contain all of the visible content per slide.  Each slide can contain any type of markup and it will fit inside the "slide_window."
+
+NOTE: The "slide" element height is not set dynamically with JavaScript, but instead must be set with CSS.  This is intentional to allow a user to create more or less vertical space as desired to a slide (for example, to use a custom background image).
 
 An example of the carousel markup is shown below:
 
 ```html
 <div id="carousel" class="clearfix">
-    <a href="#" class="control prev">&lt;&lt;&nbsp;Prev</a>
+    <a href="#" class="control prev">&lt;&lt;&nbsp;Prev</a>&nbsp;&nbsp;
+    <a href="#" class="control next">Next&nbsp;&gt;&gt;</a>
     <div class="slide_window clearfix">
         <div class="slide">
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_1.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 1</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_2.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 2</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_3.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 3</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
+            <h3>Slide #1</h3>
+            <img src="../images/sample_image_1.jpg" alt="" class="align_left" />
+            Lorem ipsum dolor sit amet [...].
         </div>
         <div class="slide">
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_1.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 1</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_2.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 2</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_3.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 3</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
+            <h3>Slide #2</h3>
+            <img src="../images/sample_image_2.jpg" alt="" class="align_right" />
+            Lorem ipsum dolor sit amet [...].
         </div>
         <div class="slide">
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_1.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 1</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_2.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 2</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
-            <a href="#" class="item">
-                <span class="thumb">
-                    <img src="images/sample_image_3.jpg" alt="" />
-                </span>
-                <span class="title">Sample image 3</span>
-                <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </a>
+            <h3>Slide #3</h3>
+            <img src="../images/sample_image_3.jpg" alt="" class="align_left" />
+            Lorem ipsum dolor sit amet [...].
         </div>
     </div>
-    <a href="#" class="control next">Next&nbsp;&gt;&gt;</a>
 </div>
 ```
 

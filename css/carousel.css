@@ -1,9 +1,29 @@
-#carousel {
+/* carousel demo #1 */
+#carousel_1 {
     clear:both;
     overflow:hidden;
     position:relative;
 }
 
-.slide {
-    height:240px;
+#carousel_1 .slide {
+    height:250px;
+}
+
+/* carousel demo #2 */
+#carousel_2 {
+    clear:both;
+    overflow:hidden;
+    position:relative;
+}
+
+#carousel_2 .slide {
+    height:300px;
+}
+
+#carousel_2 .slide .item {
+    float:left;
+    display:inline-block;
+    width:33.33333%;
+    margin:0;
+    padding:1em;
 }
