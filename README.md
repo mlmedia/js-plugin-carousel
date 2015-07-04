@@ -87,6 +87,8 @@ The demo pages have some basic CSS to add some structure to the page, which can 
 
 You can modify or add your own CSS to match your own preferences.
 
+<strong>NOTE</strong>: the CSS should work for all modern browsers (Chrome, Firefox, Safari, etc.) and Internet Explorer 8 and later.  IE 7 and older, things fall apart.  However, if you are still using IE 7, then I'm sorry, but that's your fault.
+
 ##Demos##
 
 The demos index can be viewed here:

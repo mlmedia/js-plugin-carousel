@@ -17,3 +17,35 @@
 }
 
 /* carousel demo #3 */
+#carousel_3 .slide {
+    height:300px;
+    padding:0 40px;
+}
+
+#carousel_3 .slide .item {
+    float:left;
+    display:inline-block;
+    width:33.33333%;
+    margin:0;
+    padding:1em;
+    z-index:100;
+}
+
+#carousel_3 a.control {
+    color:#00cc00;
+    font-size:36px;
+    position:absolute;
+    height:300px;
+    line-height:300px;
+    z-index:101;
+    background-color:#ffffff;
+    width:40px;
+}
+
+#carousel_3 a.control.prev {
+    left:0;
+}
+
+#carousel_3 a.control.next {
+    right:0;
+}
