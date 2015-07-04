@@ -22,6 +22,11 @@
 		/* set the css */
 		carousel.hide( );
 		$( window ).load( function( ) {
+			carousel.css({
+				'clear':'both',
+			    'overflow':'hidden',
+			    'position':'relative'
+			});
 			slide_window.css({
 				'height':slide_height,
 				'width':slide_width,

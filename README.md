@@ -1,5 +1,7 @@
 #Carousel Plugin#
 
+This jQuery plugin is an infinite-scrolling carousel that works as a slideshow for images and content.  Although it's not bloated with options, it is a great little plugin to learn from when building something custom with jQuery.
+
 ##Usage / Installation##
 
 Usage of this carousel plugin entails the usual process:
