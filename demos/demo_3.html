@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>jQuery carousel plugin - DEMO #3</title>
 
@@ -12,9 +13,10 @@
 	<link type="text/css" media="all" href="../css/font-awesome.min.css" rel="stylesheet" />
 
 	<!-- js -->
-    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="../js/carousel.js"></script>
+	<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../js/carousel.js"></script>
 </head>
+
 <body>
 	<div class="container">
 		<div class="whitebox">
@@ -32,89 +34,87 @@
 			<div id="carousel_3" class="clearfix">
 				<a href="#" class="control prev"><i class="fa fa-arrow-circle-left"></i></a>
 				<a href="#" class="control next"><i class="fa fa-arrow-circle-right"></i></a>
-			    <div class="slide_window clearfix">
-			        <div class="slide">
-						<div class="item">
-			                <img src="../images/sample_image_1.jpg" alt="" />
-							<h3>Sample image 1</h3>
-			                <p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</p>
-			            </div>
-						<div class="item">
-			                <img src="../images/sample_image_1.jpg" alt="" />
-							<h3>Sample image 1</h3>
-			                <p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</p>
-			            </div>
-						<div class="item">
-			                <img src="../images/sample_image_1.jpg" alt="" />
-							<h3>Sample image 1</h3>
-			                <p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							</p>
-			            </div>
-			        </div>
+				<div class="slide_window clearfix">
 					<div class="slide">
 						<div class="item">
-			                <img src="../images/sample_image_2.jpg" alt="" />
-							<h3>Sample image 2</h3>
-			                <p>
+							<img src="../images/sample_image_1.jpg" alt="" />
+							<h3>Sample image 1</h3>
+							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
-			            </div>
+						</div>
 						<div class="item">
-			                <img src="../images/sample_image_2.jpg" alt="" />
-							<h3>Sample image 2</h3>
-			                <p>
+							<img src="../images/sample_image_1.jpg" alt="" />
+							<h3>Sample image 1</h3>
+							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
-			            </div>
+						</div>
 						<div class="item">
-			                <img src="../images/sample_image_2.jpg" alt="" />
-							<h3>Sample image 2</h3>
-			                <p>
+							<img src="../images/sample_image_1.jpg" alt="" />
+							<h3>Sample image 1</h3>
+							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
-			            </div>
-			        </div>
+						</div>
+					</div>
 					<div class="slide">
 						<div class="item">
-			                <img src="../images/sample_image_3.jpg" alt="" />
-							<h3>Sample image 3</h3>
-			                <p>
+							<img src="../images/sample_image_2.jpg" alt="" />
+							<h3>Sample image 2</h3>
+							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
-			            </div>
+						</div>
 						<div class="item">
-			                <img src="../images/sample_image_3.jpg" alt="" />
-							<h3>Sample image 3</h3>
-			                <p>
+							<img src="../images/sample_image_2.jpg" alt="" />
+							<h3>Sample image 2</h3>
+							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
-			            </div>
+						</div>
 						<div class="item">
-			                <img src="../images/sample_image_3.jpg" alt="" />
-							<h3>Sample image 3</h3>
-			                <p>
+							<img src="../images/sample_image_2.jpg" alt="" />
+							<h3>Sample image 2</h3>
+							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
-			            </div>
-			        </div>
-			    </div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="item">
+							<img src="../images/sample_image_3.jpg" alt="" />
+							<h3>Sample image 3</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+						</div>
+						<div class="item">
+							<img src="../images/sample_image_3.jpg" alt="" />
+							<h3>Sample image 3</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+						</div>
+						<div class="item">
+							<img src="../images/sample_image_3.jpg" alt="" />
+							<h3>Sample image 3</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 			<script type="text/javascript">
 				/* define $ as jQuery just in case */
-				( function( $ )
-				{
+				(function($) {
 					/* doc ready */
-					$( function( )
-					{
+					$(function() {
 						/* init the plugin */
-						$( '#carousel_3' ).carousel( );
+						$('#carousel_3').carousel();
 					});
-				})( jQuery );
+				})(jQuery);
 			</script>
 			<hr />
 			<p>
@@ -123,4 +123,5 @@
 		</div>
 	</div>
 </body>
+
 </html>

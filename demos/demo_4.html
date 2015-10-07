@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>jQuery carousel plugin - DEMO #4</title>
 
@@ -12,9 +13,10 @@
 	<link type="text/css" media="all" href="../css/font-awesome.min.css" rel="stylesheet" />
 
 	<!-- js -->
-    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="../js/carousel.js"></script>
+	<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../js/carousel.js"></script>
 </head>
+
 <body>
 	<div class="container">
 		<div class="whitebox">
@@ -32,35 +34,33 @@
 			<div id="carousel_4" class="clearfix">
 				<a href="#" class="control prev"><i class="fa fa-chevron-left"></i></a>
 				<a href="#" class="control next"><i class="fa fa-chevron-right"></i></a>
-			    <div class="slide_window clearfix">
-			        <div class="slide">
+				<div class="slide_window clearfix">
+					<div class="slide">
 						<img src="../images/sample_image_800x400_1.jpg" alt="" />
-			        </div>
+					</div>
 					<div class="slide">
 						<img src="../images/sample_image_800x400_2.jpg" alt="" />
-			        </div>
+					</div>
 					<div class="slide">
 						<img src="../images/sample_image_800x400_3.jpg" alt="" />
-			        </div>
+					</div>
 					<div class="slide">
 						<img src="../images/sample_image_800x400_4.jpg" alt="" />
-			        </div>
+					</div>
 					<div class="slide">
 						<img src="../images/sample_image_800x400_5.jpg" alt="" />
-			        </div>
-			    </div>
+					</div>
+				</div>
 			</div>
 			<script type="text/javascript">
 				/* define $ as jQuery just in case */
-				( function( $ )
-				{
+				(function($) {
 					/* doc ready */
-					$( function( )
-					{
+					$(function() {
 						/* init the plugin */
-						$( '#carousel_4' ).carousel( );
+						$('#carousel_4').carousel();
 					});
-				})( jQuery );
+				})(jQuery);
 			</script>
 			<hr />
 			<p>
@@ -69,4 +69,5 @@
 		</div>
 	</div>
 </body>
+
 </html>
