@@ -2,9 +2,9 @@
  * jQuery plugin for an infinite carousel
  */
 /* define $ as jQuery just in case */
-(function($) {
+(function ($) {
 	/* circular carousel - my custom plugin */
-	$.fn.carousel = function() {
+	$.fn.carousel = function () {
 		/* set static vars */
 		var carousel = this;
 		var slide_window = carousel.find('.slide_window');
@@ -19,7 +19,7 @@
 
 		/* set the css */
 		carousel.hide();
-		$(window).load(function() {
+		$(window).load(function () {
 			carousel.css({
 				'clear': 'both',
 				'overflow': 'hidden',
@@ -59,7 +59,7 @@
 		});
 
 		/* navigation */
-		carousel.on('click', '.control', function(e) {
+		carousel.on('click', '.control', function (e) {
 
 			/* set the vars */
 			var anim_active = '1';
@@ -106,7 +106,7 @@
 			if (slide_count > 1) {
 				/* set the offset for each slide */
 				var slides = carousel.find('.slide');
-				$.each(slides, function(i) {
+				$.each(slides, function (i) {
 					var slide_offset = parseInt(slide_w * (i - 1));
 					if (animate === true) {
 						carousel.find('.slide:eq(' + i + ')').animate({
