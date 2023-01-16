@@ -83,7 +83,7 @@ Initialize the plugin with the selector of the parent element.
 ```
 
 ### Style the plugin with CSS
-The demo pages have some basic CSS to add some structure to the page, which can be seen here: http://demo.dockstreetmedia.com/carousel/css/main.css. Some of the demos also have some styling for the carousels, which can be seen here: http://demo.dockstreetmedia.com/carousel/css/carousel.css.
+The demo pages have some basic CSS to add some structure to the page, which can be seen here: http://www.dockstreetmedia.com/demo/carousel/css/main.css. Some of the demos also have some styling for the carousels, which can be seen here: http://www.dockstreetmedia.com/demo/carousel/css/carousel.css.
 
 You can modify or add your own CSS to match your own preferences.
 
@@ -93,7 +93,7 @@ You can modify or add your own CSS to match your own preferences.
 
 The demos index can be viewed here:
 
-* http://demo.dockstreetmedia.com/carousel/index.html.  
+* http://www.dockstreetmedia.com/demo/carousel/index.html.  
 
 View the source to see how each carousel was initialized and styled.
 
